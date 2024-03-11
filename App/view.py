@@ -176,7 +176,7 @@ while True:
         label = input("Digame el tiutlo que desea buscar:")
         title = controller.getBooksByTitle(ctrlr, label)
         #print(title)
-        printBooksbyTitle(title)
+        printBooksbyTitle(title["books"])
         # TODO lab 6, conectar con las funciones del controlador e imprimir
         
 
